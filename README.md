@@ -28,3 +28,7 @@ The application is divided into several parts:
 Make sure to have OpenVINO installed, have the camera module installed and be sure to insert the Intel NCS2 into a USB port before running the application. After that run the application with `python3 app.py`. Then go to `0.0.0.0:5000/` and then you should see the UI as shown below. Then you can click the buttons to capture images, classify images, detect text or detect vehicles.
 
 ![image](https://github.com/sentairanger/OpenVINO-PiCamera2-UI/blob/main/openvino.png)
+
+## Youtube Demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ta1XP9TISrc/0.jpg)](https://www.youtube.com/watch?v=ta1XP9TISrc)
