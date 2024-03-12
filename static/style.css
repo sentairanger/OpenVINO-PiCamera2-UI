@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn-group button {
+   display: block;
+   color: #ffffff;
+   background-color: #2d63c8;
+   font-size: 19px;
+   border: 1px solid #2dc8c5;
+   padding: 15px 50px;
+   cursor: pointer;
+   }
+
+.btn-group button:hover {
+   color: #2d63c8;
+   background-color: #ffffff;
+   
+}
+p {
+  font-size: 19px;  
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #2d63c8;
+}
+
+.nav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body {
+  font-family: impact, fantasy;
+}
